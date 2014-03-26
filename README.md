@@ -1,4 +1,4 @@
-Visualizador-SPARQL
+Displayer-SPARQL
 ===================
 
 I have developed a Web portal access to statistical data.
