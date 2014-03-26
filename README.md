@@ -1,15 +1,17 @@
 Visualizador-SPARQL
 ===================
 
-Se ha desarrollado un portal Web de acceso a los datos estadísticos. 
+I have developed a Web portal access to statistical data.
 
-El portal se ha construido con el Netbeans 7.3 y su servidor GlassFish V3, para ello se ha utilizado la estructura de un Servicio Restful escrito en Java en la parte del Servidor, ya que usaremos las características de Java EE6. 
+The portal is built with Netbeans 7.3 and GlassFish V3 server, I used the structure of a Restful Service written in Java on the Server side, using the features of Java EE6.
 
-Mientras en la parte del cliente, se utilizara una página en HTML, que será consumida desde JavaScript, la cual se provee de la técnica AJAX, llamando al método GET que nos devuelve la consulta con jQuery. El portal contiene la Query de ejemplo para sacar, el conjunto de datos de: 
-- 1. Datos de la Web Index 
-- 2. Datos extraídos desde Excel 
-- 3. Datos sobre indicadores de extraídos de la Web Foundation | Web Index 
+While on the client, I used an HTML page, which will be consumed from JavaScript, I provide the AJAX technique, calling the GET method which returns a jQuery. The data are taken from:
 
-Los datos son filtrados por el año 2007 y cogida una muestra de 10 elementos, con el nombre del país y los indicadores en este caso uso de Internet y desempeño logístico.
+1.	Web Index
+2.	Extracted from Excel
+3.	Indicators extracted from the Web Foundation | Web Index
 
-La aplicación muestra la forma de datos llegados de la consulta, después de organizarlos se hace una gráfica (utilizando Google Charts) con la muestra tomada, donde se expone los indicadores de los 10 países en una gráfica de barras la cual puede ser filtrada por medio del spinner de la izquierda, aumentando o/y disminuyendo, el número del uso de Internet, lo cual irá reduciendo el número de países dependiendo del valor de estos.
+The data are filtered by the year 2007 and catching a sample of 10 items, with the name of the country and indicators in this case I’m using the subject, “Internet and logistics performance”.
+
+The application shows how data coming from the query, after organizing them, I create a graph (using Google Charts) with the sample, where I exhibit the indicators of 10 countries in a bar graph which can be filtered by the spinner on the left, increasing and / or decreasing the number of Internet used, This effect reduce or increases the number of countries depending on the value of these.
+
